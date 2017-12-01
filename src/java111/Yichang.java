@@ -20,7 +20,7 @@ public class Yichang {
 	public static void main(String[] args) {
 		Yichang sYichang = new Yichang();
 		System.out.println(sYichang.yichan(3, 0));
-
+		System.out.println("ssssssssssssss");
 	}
 
 }
