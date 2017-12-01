@@ -3,7 +3,10 @@ package xuexi;
 import java.util.Scanner;
 
 public class yuefen {
+
 	public static void main(String[] args) {
+
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("ÊäÈëÔÂ·İ");
 		int month = scanner.nextInt();
