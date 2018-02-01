@@ -3,6 +3,9 @@ package xuexi;
 import java.util.Scanner;
 
 public class chengji {
+	public void fangfa() {
+		System.out.println("sss");
+	}
 
 	public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package xuexi;
 
 import java.util.Scanner;
 
-public class Student {
+public class Student1 {
 	String name;
 	int age;
 	String className;
@@ -20,10 +20,10 @@ public class Student {
 		return gendar;
 	}
 
-	public Student() {
+	public Student1() {
 	}
 
-	public Student(String name, int age, String className, String gendar) {
+	public Student1(String name, int age, String className, String gendar) {
 		this.name = name;
 		this.age = age;
 		this.className = className;
@@ -36,7 +36,7 @@ public class Student {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("请输入学生数量");
 		int num = scanner.nextInt();
-		Student[] students = new Student[num];
+		Student1[] students = new Student1[num];
 		for (int i = 0; i < students.length; i++) {
 			System.out.println("请输入姓名");
 			String name = scanner.next();
@@ -46,10 +46,10 @@ public class Student {
 			String gendar = scanner.next();
 			System.out.println("请输入班级");
 			String className = scanner.next();
-			Student student = new Student(name, age, className, gendar);
+			Student1 student = new Student1(name, age, className, gendar);
 			students[i] = student;
 		}
-		for (Student j : students) {
+		for (Student1 j : students) {
 			System.out.println(j);
 		}
 
@@ -79,7 +79,7 @@ public class Student {
 				String nameSearch = scanner.next();
 				boolean isnamesearchfound = false;
 				for (int j = 0; j < students.length; j++) {
-					Student student = students[j];
+					Student1 student = students[j];
 					String name = student.GetName();
 					if (nameSearch.equals(name)) {
 						System.out.println(student);
@@ -97,7 +97,7 @@ public class Student {
 				int agesearch = scanner.nextInt();
 				boolean isagesearchfound = false;
 				for (int j = 0; j < students.length; j++) {
-					Student student = students[j];
+					Student1 student = students[j];
 					int age = student.GetAge();
 					if (agesearch == age) {
 						System.out.println(student);
@@ -117,7 +117,7 @@ public class Student {
 				boolean isgendarfound = false;
 				for (int j = 0; j < students.length; j++) {
 
-					Student student = students[j];
+					Student1 student = students[j];
 					String gendar = student.GetGendar();
 					if (gendarsearch.equals(gendar)) {
 						System.out.println(student);

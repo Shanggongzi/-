@@ -21,6 +21,7 @@ public class Zifuzhuan {
 		String str = "abkkcdkkefkkskk";
 		String key = "kk";
 		System.out.println(Zifuzhuan.getSubCount(str, key));
+
 	}
 
 }

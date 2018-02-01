@@ -31,6 +31,7 @@ public class Add {
 	}
 
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		Add add = new Add(2.0, 3.0);
 
 	}

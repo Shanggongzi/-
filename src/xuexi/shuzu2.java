@@ -1,5 +1,7 @@
 package xuexi;
 
+import java.util.Arrays;
+
 public class shuzu2 {
 	public static void main(String[] args) {
 		int[] score = { 0, 0, 1, 2, 3, 5, 4, 5, 2, 8, 7, 6, 9, 5, 4, 8, 3, 1, 0, 2, 4, 8, 7, 9, 5, 2, 1, 2, 3, 9 };
@@ -14,6 +16,7 @@ public class shuzu2 {
 		}
 		System.out.println("奇数个数为：" + m);
 		System.out.println("偶数个数为：" + n);
+		System.out.println(Arrays.toString(score));
 	}
 
 }
